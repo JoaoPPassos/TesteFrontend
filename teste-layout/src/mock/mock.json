@@ -1,0 +1,9 @@
+{
+  "menus": [
+    { "name": "/QUEM SOMOS", "ref": "#HOME" },
+    { "name": "/O QUE FAZEMOS", "ref": "#WHAT" },
+    { "name": "/PLAN NEWS", "ref": "#PLAN" },
+    { "name": "/NOSSOS CLIENTES", "ref": "#CLIENTS" },
+    { "name": "/CONTATO", "ref": "#CONTACT" }
+  ]
+}

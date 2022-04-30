@@ -2,10 +2,32 @@
   background-color: #1e1e1e;
   width: 100vw;
   height: 100vh;
-}
+  display: flex;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "DejaVuSans";
+  overflow-x: hidden;
 
-.menu {
-  border-right: 1px solid #5d5d5d;
-  height: 100%;
-  width: 235px;
+  .menu {
+    .Logoarea {
+      height: 128px;
+      padding: 0px 8px;
+
+      margin-bottom: 32px;
+    }
+    padding: 24px 0px;
+
+    border-right: 1px solid #5d5d5d;
+    background-color: #1e1e1e;
+    height: 100vh;
+    width: 235px;
+    position: fixed;
+  }
+
+  .body {
+    width: 100%;
+    height: 100%;
+  }
 }
